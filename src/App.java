@@ -1,7 +1,12 @@
+import java.util.Date;
+
 public class App {
 
   public static void main(String[] args){
-    System.out.println("Hello, world!");
-  }
+    Date relogio = new Date();
+  System.out.print("The time of the system is: ");
+  System.out.println(relogio.toString());
 
+  }
+  
 }
